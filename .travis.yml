@@ -30,3 +30,6 @@ deploy:
   - provider: npm
     email: "obt195@gmail.com"
     api_key: $NPM_TOKEN
+
+after_deploy:
+  - git push --tags
