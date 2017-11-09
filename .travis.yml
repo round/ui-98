@@ -21,8 +21,8 @@ install:
 
 before_deploy:
   - git add package.json
-  - git remote add origin-tags https://${GITHUB_TOKEN}@github.com/Yukioru/ui-98.git > /dev/null 2>&1
-  - git push --tags --set-upstream origin-tags master
+  - git remote add origins https://${GITHUB_TOKEN}@github.com/Yukioru/ui-98.git > /dev/null 2>&1
+  - git push --all --set-upstream origins master
 
 deploy:
   - provider: pages
