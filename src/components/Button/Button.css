@@ -18,6 +18,7 @@
     border-left-color: #4c4c4c;
     border-bottom-color: #fcfcfc;
     border-right-color: #fcfcfc;
+    color: inherit;
     box-shadow: inset 1px 1px 0 #4c4c4c;
 }
 
@@ -30,4 +31,13 @@
 .ui98-btn:disabled {
     color: #8d8d8d;
     text-shadow: 1px 1px 0 #f7f7f7;
+}
+
+.ui98-btn:disabled:active {
+    border-top-color: #fcfcfc;
+    border-left-color: #fcfcfc;
+    border-bottom-color: #4c4c4c;
+    border-right-color: #4c4c4c;
+    outline: none;
+    box-shadow: 1px 1px 0 #4c4c4c;
 }
