@@ -11,7 +11,8 @@ commit_website_files() {
 }
 
 upload_files() {
-  git push --tags 
+  git remote add origin-tags https://${GH_TOKEN}@github.com/Yukioru/ui-98.git > /dev/null 2>&1
+  git push --tags --set-upstream origin-tags master
 }
 
 setup_git

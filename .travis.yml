@@ -20,7 +20,7 @@ install:
   - yarn run build-storybook
 
 script:
-  - ./update.sh
+  - sh ./update.sh
 
 deploy:
   - provider: pages
