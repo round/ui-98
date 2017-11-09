@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "dependencies": {
     "classnames": "2.2.5",
+    "patch-version": "0.1.1",
     "prop-types": "15.6.0",
     "react": "16.1.0",
     "react-dom": "16.1.0",
