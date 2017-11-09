@@ -30,3 +30,5 @@ deploy:
   - provider: npm
     email: "obt195@gmail.com"
     api_key: $NPM_TOKEN
+    on:
+      tags: true
