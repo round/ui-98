@@ -1,6 +1,24 @@
 {
   "name": "ui-98",
   "version": "0.1.3",
+  "description": "Windows 98 UI-Kit",
+  "keywords": [
+    "windows",
+    "react",
+    "ui",
+    "kit",
+    "oldschool"
+  ],
+  "author": {
+    "email": "sempai@yukio.ru",
+    "name": "Andrey Kondalov",
+    "url": "https://yukio.ru"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yukioru/ui-98.git"
+  },
   "dependencies": {
     "classnames": "2.2.5",
     "patch-version": "0.1.1",
