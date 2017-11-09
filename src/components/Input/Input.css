@@ -1,0 +1,21 @@
+.ui98-input {
+    background-color: white;
+    font-size: 11px;
+    border: 1px solid;
+    border-top-color: #4c4c4c;
+    border-left-color: #4c4c4c;
+    border-bottom-color: #fcfcfc;
+    border-right-color: #fcfcfc;
+    padding: 4px 6px;
+    outline: none;
+}
+
+.ui98-input:focus {
+    outline: 1px dotted #4c4c4c;
+    outline-offset: -2px;
+}
+
+.ui98-input:disabled {
+    background-color: #c0c0c0;
+    color: #888;
+}

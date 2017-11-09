@@ -1,0 +1,33 @@
+.ui98-btn {
+    font-family: 'Microsoft Sans Serif', Tahoma, Verdana;
+    background-color: #c0c0c0;
+    min-width: 70px;
+    font-size: 11px;
+    padding: 6px 12px;
+    border: 1px solid;
+    border-top-color: #fcfcfc;
+    border-left-color: #fcfcfc;
+    border-bottom-color: #4c4c4c;
+    border-right-color: #4c4c4c;
+    outline: none;
+    box-shadow: 1px 1px 0 #4c4c4c;
+}
+
+.ui98-btn:active {
+    border-top-color: #4c4c4c;
+    border-left-color: #4c4c4c;
+    border-bottom-color: #fcfcfc;
+    border-right-color: #fcfcfc;
+    box-shadow: inset 1px 1px 0 #4c4c4c;
+}
+
+.ui98-btn:focus {
+    outline-offset: -4px;
+    outline: 1px dotted #4c4c4c;
+    box-shadow: 0 0 0 1px #4c4c4c;
+}
+
+.ui98-btn:disabled {
+    color: #8d8d8d;
+    text-shadow: 1px 1px 0 #f7f7f7;
+}

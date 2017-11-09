@@ -1,0 +1,7 @@
+.ui98-btn-group {
+    display: flex;
+}
+
+.ui98-btn-group > *:not(:last-child) {
+    margin-right: 8px;
+}
