@@ -17,17 +17,16 @@ install:
   - yarn run build-storybook
 
 before_deploy:
-  - ./node_modules/.bin/patch-version
+  - npm version patch
 
 deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: storybook-static
-  on:
-    branch: master
+  - provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: storybook-static
+    on:
+      branch: master
 
-deploy:
-  provider: npm
-  email: "obt195@gmail.com"
-  api_key: $NPM_TOKEN
+  - provider: npm
+    email: "obt195@gmail.com"
+    api_key: $NPM_TOKEN
